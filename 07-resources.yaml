@@ -8,7 +8,7 @@ spec:
     image: nginx
     resources:
        # soft limit(minimum usage)
-      regquests:
+      requests:
         memory: "68Mi"
         cpu: "100m"
       # hard limit(max usage)
